@@ -1,0 +1,52 @@
+/* style global */
+
+ul {
+  & li {
+    list-style-type: none;
+    & a {
+      text-decoration: none;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+/* style header */
+header {
+  /* display: flex;
+  flex-direction: column; */
+  & #banniere {
+    display: flex;
+    justify-content: center;
+  }
+  & .flex {
+    display: flex;
+  }
+  & #logo > img {
+    height: 60px;
+  }
+  & nav {
+    flex-grow: 1;
+    & ul {
+      gap: 2%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      & li {
+        & a:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+/* style main */
+h1 {
+  color: red;
+}
+
+/* style footer */
